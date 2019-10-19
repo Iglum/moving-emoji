@@ -8,8 +8,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
-  /* align-content: center; */
+  align-items: center;
+  align-content: center;
   min-height: 100vh;
   background: linear-gradient(#00978d 0%, #f3b6c9 100%) no-repeat 50% 50% / 100%
     100%;
@@ -20,8 +20,8 @@ body {
   min-width: 1.4em;
   margin: 20px 15px;
   margin: 0.3em 0.4em;
-  /* text-align: center; */
-  /* border: solid black 2px */
+  text-align: center;
+  /* border: solid black 3px */
 }
 
 .emoji::after {
