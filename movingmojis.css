@@ -8,18 +8,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  align-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
   min-height: 100vh;
   background: linear-gradient(#00978d 0%, #f3b6c9 100%) no-repeat 50% 50% / 100%
     100%;
 }
 
 .emoji {
-  font-size: calc(80px + 4vw);
+  font-size: calc(30px + 4vw);
   min-width: 1.4em;
+  margin: 20px 15px;
   margin: 0.3em 0.4em;
-  text-align: center;
+  /* text-align: center; */
   /* border: solid black 2px */
 }
 
@@ -148,8 +149,8 @@ body {
 }
 
 .shadow::after {
-  content: '👤';
-  --emoji: '👥';
+  content: "👤";
+  --emoji: "👥";
   animation-name: twoFrames;
   animation-duration: 2s;
 }
