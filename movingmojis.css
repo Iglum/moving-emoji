@@ -147,6 +147,13 @@ body {
   animation-duration: 1s;
 }
 
+.shadow::after {
+  content: '👤';
+  --emoji: '👥';
+  animation-name: twoFrames;
+  animation-duration: 2s;
+}
+
 @keyframes twoFrames {
   50% {
     content: var(--emoji);
